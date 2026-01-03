@@ -1,4 +1,4 @@
-import 'package:first_app/dice_roller.dart';
+import 'package:dice_roller/dice_roller.dart';
 import 'package:flutter/material.dart';
 
 class GradientContainer extends StatelessWidget {

@@ -1,5 +1,5 @@
 import 'dart:math';
-import 'package:first_app/styled_text.dart';
+import 'package:dice_roller/styled_text.dart';
 import 'package:flutter/material.dart';
 
 // Variavel final global para o randomizador,
