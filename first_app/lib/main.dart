@@ -1,0 +1,25 @@
+import 'package:flutter/material.dart';
+import 'gradient_container.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Scaffold(
+        body: GradientContainer(
+          alignmentBegin: Alignment.topLeft,
+          alignmentEnd: Alignment.bottomRight,
+          // colors: [
+          //   Colors.purple,
+          //   Colors.white,
+          // ],
+        ),
+      ),
+    );
+  }
+}
